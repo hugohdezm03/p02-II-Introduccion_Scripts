@@ -68,4 +68,6 @@ En este último ejercicio se crean 5 esferas más, a dos de ellas se les asigna 
 
 ![Gif Animado de la actividad 8](docs/p02-act8.gif)
 
+![Gif Animado de la actividad 8.1](docs/p02-act8.1.gif)
+
 [Código del Script del Ejercicio 8](Scripts/SphereGroups.cs)
