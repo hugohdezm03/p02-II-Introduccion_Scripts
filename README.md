@@ -48,15 +48,24 @@ En el ejercicio se pide mostrar las distancias existentes desde la esfera al cub
 
 ## Ejercicio 6: Traslación de objetos a nuevas posiciones al pulsar una tecla
 
+En el presente ejercicio se pide realizar una traslación de las figuras de la escena definiendo el movimiento deseado en un Vector3. Para ello, además de la clase Vector3, se usa la clase Input de Unity y se crea un elemento invisible al que se asociará el script (por lo tanto, será necesario obtener los objetos mediante su tag o nombre). Es destacable mencionar que en mi versión del script cambio los vectores de desplazamiento de signo cada vez que se ejecuta, para que se alterne entre dos posiciones (la original y la nueva).
 
-[Código del Script del Ejercicio 6]()
+![Gif Animado de la actividad 6](docs/p02-act6.gif)
+
+[Código del Script del Ejercicio 6](Scripts/OnSpaceMove.cs)
 
 ## Ejercicio 7: Cambiar color de objetos al pulsar teclas
 
+El presente ejercicio plantea que se cambie el color del cilindro al presionar la tecla **C** y el color del cubo al presionar la tecla **flecha arriba**. Para ello, se vuelve a hacer uso del elemento invisible creado en el ejercicio anterior para asociar el script, además se usan la clases de Unity *Input* (detectar tecla pulsada), *Color* (almacenar un color) y *Random* (generar un color aleatorio). Como en el ejercicio 1, se modifica la propiedad *color* del material obtenido del componente *Renderer* de los GameObject.
 
-[Código del Script del Ejercicio 7]()
+![Gif Animado de la actividad 7](docs/p02-act7.gif)
+
+[Código del Script del Ejercicio 7](Scripts/onKeyColorChange.cs)
 
 ## Ejercicio 8: Modificar escala y color según distancia entre diferentes objetos
 
+En este último ejercicio se crean 5 esferas más, a dos de ellas se les asigna una etiqueta *grupo_1* y a las tres restantes la etiqueta *grupo_2*. Sobre el segundo grupo mencionado se calcularán las esferas más cercana y más lejana al cubo. A la esfera más cercana al cubo se le aumentará la altura (modificando la propiedad *localScale* de la propiedad *transform* del GameObject). A la esfera más lejana se le cambiará el color cada vez que se presione la tecla **espacio**. Es importante destacar que el Script desarrollado es reactivo a movimientos, es decir, si se desplazan el cubo o las esferas, se cambiarán las acciones si es necesario.
 
-[Código del Script del Ejercicio 8]()
+![Gif Animado de la actividad 8](docs/p02-act8.gif)
+
+[Código del Script del Ejercicio 8](Scripts/SphereGroups.cs)
