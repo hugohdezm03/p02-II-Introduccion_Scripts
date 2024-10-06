@@ -32,13 +32,19 @@ En este ejercicio se han creado dos variables Vector3 públicas para que sean ac
 
 ## Ejercicio 4: Mostrar posición por consola
 
+En la presente actividad se propone mostrar por pantalla el vector de posición de la esfera. Para ello, únicamente hay que acceder al atributo *position* del componente *Transform* de la esfera.
 
-[Código del Script del Ejercicio 4]()
+![Gif Animado de la actividad 4](docs/p02-act4.gif)
+
+[Código del Script del Ejercicio 4](Scripts/PrintPosition.cs)
 
 ## Ejercicio 5: Cálculo de distancias entre diferentes objetos
 
+En el ejercicio se pide mostrar las distancias existentes desde la esfera al cubo y al cilindro. Para calcular la distancia se usa el método de Vector3 *Distance* que recibe los vectores de posición de las dos figuras de interés y retorna la distancia entre ellas.
 
-[Código del Script del Ejercicio 5]()
+![Gif Animado de la actividad 5](docs/p02-act5.gif)
+
+[Código del Script del Ejercicio 5](Scripts/PrintDistances.cs)
 
 ## Ejercicio 6: Traslación de objetos a nuevas posiciones al pulsar una tecla
 
