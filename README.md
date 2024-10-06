@@ -24,8 +24,11 @@ En el segundo ejercicio se especifica que la escena creada ha de tener un plano,
 
 ## Ejercicio 3: Vector3 y sus métodos
 
+En este ejercicio se han creado dos variables Vector3 públicas para que sean accesibles desde el inspector de Unity. Se han calculado diferentes operaciones (métodos de la clase Vector3) y se muestra el resultado en la consola y en el inspector.
 
-[Código del Script del Ejercicio 3]()
+![Gif Animado de la actividad 3](docs/p02-act3.gif)
+
+[Código del Script del Ejercicio 3](Scripts/VectorProperties.cs)
 
 ## Ejercicio 4: Mostrar posición por consola
 
