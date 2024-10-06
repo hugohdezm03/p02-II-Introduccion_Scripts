@@ -32,7 +32,7 @@ En este ejercicio se han creado dos variables Vector3 públicas para que sean ac
 
 ## Ejercicio 4: Mostrar posición por consola
 
-En la presente actividad se propone mostrar por pantalla el vector de posición de la esfera. Para ello, únicamente hay que acceder al atributo *position* del componente *Transform* de la esfera.
+En la presente actividad se propone mostrar por pantalla el vector de posición de la esfera. Para ello, únicamente hay que acceder al atributo *position* del componente *Transform* de la esfera. Se ha usado la sección **Update** para que el presente Script arroje resultados correctos si se usa en conjunto con otros Scripts de esta misma práctica que implican desplazamientos de objetos.
 
 ![Gif Animado de la actividad 4](docs/p02-act4.gif)
 
