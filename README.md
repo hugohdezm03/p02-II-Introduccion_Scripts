@@ -74,4 +74,4 @@ En este último ejercicio se crean 5 esferas más, a dos de ellas se les asigna 
 
 ## Modificación
 
-![Código del Script de la modificación](Scripts/Modificacion.cs)
+[Código del Script de la modificación](Scripts/Modificacion.cs)
